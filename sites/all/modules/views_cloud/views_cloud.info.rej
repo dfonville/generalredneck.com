@@ -1,0 +1,10 @@
+--- views_cloud.info
++++ views_cloud.info
+@@ -2,4 +2,6 @@
+ description = Allows views and summaries to be displayed as clouds of weighted items.
+ dependencies[] = views
+ package = Views
+-core = 6.x
++core = 7.x
++files[] = views_cloud_plugin_style_cloud.inc
++files[] = views_cloud_plugin_summary_style_cloud.inc

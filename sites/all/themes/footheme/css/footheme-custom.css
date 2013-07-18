@@ -1,0 +1,196 @@
+q::before {
+  content: '“';
+}
+q::after {
+  content: '”';
+}
+div.hr {
+	border-bottom: 1px solid #E1E1E1;
+  margin-bottom: 10px;
+}
+.center-contents {
+  text-align:center;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  caption-side:bottom;
+}
+
+h2 a, h3 a, h4 a, h5 a, h6 a{
+  color: #779125;
+}
+
+a.heading-perm-link {
+  display: none;
+}
+
+/* Blocks */
+.block {
+  margin-bottom: 15px;
+}
+#search-block-form {
+  margin-bottom: 10px;
+}
+div.region-sidebar-second div.block-content div.item-list ul,
+div.region-sidebar-second div.block-content ul.menu {
+	padding: 0;
+	margin: 0;
+}
+div.region-sidebar-second div.block-content div.item-list ul li,
+div.region-sidebar-second div.block-content ul.menu li.leaf {
+	list-style-type: none;
+  list-style-image: none;
+	margin-left: 0;
+	padding: 3px 0;
+	border-bottom: 1px solid #E1E1E1;
+  font-size: .85em;
+}
+div.region-sidebar-second div.block-content div.item-list ul li.views-row-last,
+div.region-sidebar-second div.block-content ul.menu li.last{
+	border-bottom: none;
+}
+
+#logo img {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+
+
+/* Content */
+#main-content nav {
+  margin: 10px;
+}
+#main-content .node-readmore a, #comments .comment-reply a{
+  border: 1px solid #c4c4c4;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: url(../../corolla/css/images/button.png) repeat-x left top transparent;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  margin: 0 5px 0 0;
+  padding: 5px 11px;
+}
+div.content-bottom-section {
+  margin-top:20px;
+}
+#main-content div.submitted {
+  float: right;
+  margin:6px 4px 10px 4px;
+}
+.taxonomy a {
+  float: left;
+  font-weight: normal;
+  padding: 2px 4px;
+  margin: 2px;
+  text-shadow: 0 1px 0 white;
+  border-bottom: 1px solid #E6EAED;
+  border-left: 1px solid #E6EAED;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background: whiteSmoke;
+}
+.taxonomy a:hover {
+  background-color:#EEE;
+}
+#block-views-tweets-block {
+  margin-bottom: 5px;
+}
+.article-teaser {
+	padding: 10px 0;
+	border-bottom: 1px solid #E1E1E1;
+}
+.field-name-field-event-date div.field-items div {
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.field-name-field-event-location div.field-items div {
+  white-space: pre;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0 0 5px 10px;
+  margin-bottom:10px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+#autocomplete {
+  background-color: #086782;
+}
+/* Page Specific */
+body.section-about-me #block-coderwall-coderwall {
+  float:left;
+}
+
+/* Module Specific*/
+/* Views Cloud */
+
+div.views-cloud {
+  line-height: 1.2;
+}
+.views-cloud-size-1 {
+  font-size: 1em;
+}
+.views-cloud-size-2 {
+  font-size: 1.2em;
+}
+.views-cloud-size-3 {
+  font-size: 1.4em;
+}
+.views-cloud-size-4 {
+  font-size: 1.6em;
+}
+.views-cloud-size-5 {
+  font-size: 1.8em;
+}
+.views-cloud-size-6 {
+  font-size: 2em;
+}
+.views-cloud-size-7 {
+  font-size: 2.2em;
+}
+.views-cloud-size-8 {
+  font-size: 2.4em;
+}
+.views-cloud-size-9 {
+  font-size: 2.6em;
+}
+.views-cloud-size-10 {
+  font-size: 2.8em;
+}
+
+/* GoodReads Book Shelf */
+
+div.view-book-shelf.view-display-id-page h3 {
+  text-transform: capitalize;
+  clear: both;
+}
+div.view-book-shelf.view-display-id-page div.views-row {
+  float:left;
+  position: relative;
+  height:180px;
+  padding:10px;
+  width:110px;
+}
+div.view-book-shelf.view-display-id-page div.views-field-nothing {
+  position: absolute;
+  left:0;
+  top:0;
+  background-color: #F8F8F8;
+  border: 1px solid #E1E1E1;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  height:180px;
+  width:99%;
+  display:none;
+}

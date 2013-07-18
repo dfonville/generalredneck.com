@@ -1,0 +1,22 @@
+<?php
+
+
+function generalredneck_block_info() {
+  $blocks['twitter_button'] = array(
+    'info' => t('Follow Me button for Generalredneck.'),
+  );
+  return $blocks;
+}
+
+function generalredneck_block_view($delta = '') {
+  $function_name = 'generalredneck_block_' . $delta . '_content';
+  if (function_exists($function_name)) {
+    $block['content'] = $function_name($delta);
+  }
+  return $block;
+}
+
+function generalredneck_block_twitter_button_content($delta) {
+  return '<a href="https://twitter.com/general_redneck" class="twitter-follow-button" data-show-count="false">Follow @general_redneck</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>';
+}

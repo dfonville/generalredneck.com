@@ -1,0 +1,5 @@
+name = GeneralRedneck.com Custom Module
+description = Glue that holds the site together.
+package = Custom
+core = 7.x
+dependencies[] = block

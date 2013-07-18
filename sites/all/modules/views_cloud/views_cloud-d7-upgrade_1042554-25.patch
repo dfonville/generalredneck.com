@@ -1,0 +1,31 @@
+diff --git a/views_cloud.info b/views_cloud.info
+index 847fb21..284a6aa 100644
+--- a/views_cloud.info
++++ b/views_cloud.info
+@@ -2,4 +2,6 @@ name = Views cloud
+ description = Allows views and summaries to be displayed as clouds of weighted items.
+ dependencies[] = views
+ package = Views
+-core = 6.x
++core = 7.x
++files[] = views_cloud_plugin_style_cloud.inc
++files[] = views_cloud_plugin_summary_style_cloud.inc
+diff --git a/views_cloud.module b/views_cloud.module
+index 8edcf55..9daa523 100644
+--- a/views_cloud.module
++++ b/views_cloud.module
+@@ -6,11 +6,12 @@
+  */
+ 
+ /**
+- * Implementation of hook_views_api.
++ * Implements hook_views_api().
++ *
+  * Notifies the Views module that we're compatible with a particular API revision.
+  */
+ function views_cloud_views_api() {
+-  return array('api' => 2);
++  return array('api' => 3);
+ }
+ 
+ /**
